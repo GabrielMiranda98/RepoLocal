@@ -7,6 +7,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using SocialMedia.Core.Interfaces;
 using SocialMedia.Infrastructure.Data;
+using SocialMedia.Infrastructure.Filters;
 using SocialMedia.Infrastructure.Repositories;
 using System;
 
@@ -28,6 +29,8 @@ namespace SocialMedia.Api
             services.AddControllers().AddNewtonsoftJson(options =>
             {
                 options.SerializerSettings.ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore;
+            }).ConfigureApiBehaviorOptions(options=> {
+                options.SuppressModelStateInvalidFilter = true;
             });
 
             services.AddDbContext<SocialMediaContext>(options => options.UseSqlServer(Configuration.GetConnectionString("SocialMedia")));
@@ -35,6 +38,10 @@ namespace SocialMedia.Api
             //Dependency Injection
             services.AddTransient<IPostRepository, PostRepository>();
 
+            services.AddMvc(options =>
+            {
+                options.Filters.Add<ValidationFilter>();
+            });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

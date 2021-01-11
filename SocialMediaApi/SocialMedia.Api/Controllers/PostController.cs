@@ -12,6 +12,7 @@ namespace SocialMedia.Api.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    
     public class PostController : ControllerBase
     {
         #region Atributes
@@ -44,6 +45,10 @@ namespace SocialMedia.Api.Controllers
         [HttpPost]
         public async Task<IActionResult> Post(PostDto postsDto)
         {
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState);
+            }
             var post = _mapper.Map<Post>(postsDto);
             await _postRepository.InsertPost(post);
             return Ok(post);

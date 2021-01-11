@@ -9,5 +9,7 @@ namespace SocialMedia.Core.Interfaces
         Task<IEnumerable<Infraestruture.Data.Post>> GetPosts();
         Task<Post> GetPosts(int id);
 
+        Task InsertPost(Post post);
+
     }
 }

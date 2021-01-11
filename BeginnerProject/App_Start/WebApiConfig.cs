@@ -19,6 +19,14 @@ namespace BeginnerProject
                 routeTemplate: "api/{controller}/{id}",
                 defaults: new { id = RouteParameter.Optional }
             );
+
+            //linea para enviar todos los controllers en json serializado
+            var formmater = GlobalConfiguration.Configuration.Formatters.JsonFormatter;
+            formmater.SerializerSettings.ContractResolver = new Newtonsoft.Json.Serialization.CamelCasePropertyNamesContractResolver();
+
+
+
         }
+
     }
 }

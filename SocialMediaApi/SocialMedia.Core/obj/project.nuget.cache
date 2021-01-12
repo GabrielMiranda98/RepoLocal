@@ -1,12 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "CFZBJZBKAzGtyBvs2iPauMZ2Rui2EFvF/dv54OK/fa8ZECfShnrRb1y0ixSUhOx89p+ldagrfmgKehZ4qCns8w==",
+  "dgSpecHash": "HrXaZpkGXre4jcHGBDd4o+3TYUnAFB+ZTshTY+YNyHdSLuG3vjXkfXfvZ3HmxPe7x3LEy9TwpviAq/RzBI24ew==",
   "success": true,
   "projectFilePath": "C:\\Users\\GabrielMiranda\\source\\repos\\SocialMediaApi\\SocialMedia.Core\\SocialMedia.Core.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\GabrielMiranda\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Users\\GabrielMiranda\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
-    "C:\\Users\\GabrielMiranda\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512"
+    "C:\\Users\\GabrielMiranda\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
   ],
   "logs": []
 }

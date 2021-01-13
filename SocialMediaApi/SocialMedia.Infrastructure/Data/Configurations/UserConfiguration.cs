@@ -1,6 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
-using SocialMedia.Infraestruture.Data;
+using SocialMedia.Core.Entities;
 
 namespace SocialMedia.Infrastructure.Data.Configurations
 {
@@ -10,7 +10,7 @@ namespace SocialMedia.Infrastructure.Data.Configurations
 
         public void Configure(EntityTypeBuilder<User> builder)
         {
-            builder.ToTable("Usuarios");
+            builder.ToTable("Usuario");
 
             builder.HasKey(e => e.UserId);
 

@@ -38,9 +38,10 @@ namespace SocialMedia.Api
             services.AddDbContext<SocialMediaContext>(options => options.UseSqlServer(Configuration.GetConnectionString("SocialMedia")));
 
             //Dependency Injection
-            services.AddTransient<IPostService, PostService>();            
-            services.AddTransient<IPostRepository, PostRepository>();
-            services.AddTransient<IUserRepository, UserRepository>();
+            services.AddTransient<IPostService, PostService>();           
+            services.AddScoped(typeof(IRepository<>),typeof (BaseRepository<>));
+            services.AddTransient<IUnitOfWork,UnitOfWork>();
+
             services.AddMvc(options =>
             {
                 options.Filters.Add<ValidationFilter>();

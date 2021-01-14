@@ -4,6 +4,7 @@ using SocialMedia.Api.Responses;
 using SocialMedia.Core.DTOs;
 using SocialMedia.Core.Entities;
 using SocialMedia.Core.Interfaces;
+using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
@@ -29,9 +30,9 @@ namespace SocialMedia.Api.Controllers
         #endregion
 
         [HttpGet]
-        public async Task<IActionResult> GetPosts()
+        public IActionResult GetPosts(int? userId, DateTime? date, string description)
         {
-            var post = await _postService.GetPosts();
+            var post = _postService.GetPosts();
             var postsDto = _mapper.Map<IEnumerable<PostDto>>(post);
             var response = new ApiResponse<IEnumerable<PostDto>>(postsDto);
             return Ok(response);

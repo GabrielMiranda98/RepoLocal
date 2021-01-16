@@ -66,3 +66,9 @@ C:\Users\GabrielMiranda\source\repos\SocialMediaApi\SocialMedia.Api\obj\Debug\ne
 C:\Users\GabrielMiranda\source\repos\SocialMediaApi\SocialMedia.Api\obj\Debug\netcoreapp3.1\SocialMedia.Api.dll
 C:\Users\GabrielMiranda\source\repos\SocialMediaApi\SocialMedia.Api\obj\Debug\netcoreapp3.1\SocialMedia.Api.pdb
 C:\Users\GabrielMiranda\source\repos\SocialMediaApi\SocialMedia.Api\obj\Debug\netcoreapp3.1\SocialMedia.Api.genruntimeconfig.cache
+C:\Users\GabrielMiranda\source\repos\SocialMediaApi\SocialMedia.Api\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
+C:\Users\GabrielMiranda\source\repos\SocialMediaApi\SocialMedia.Api\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\GabrielMiranda\source\repos\SocialMediaApi\SocialMedia.Api\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\GabrielMiranda\source\repos\SocialMediaApi\SocialMedia.Api\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\GabrielMiranda\source\repos\SocialMediaApi\SocialMedia.Api\bin\Debug\netcoreapp3.1\SocialMedia.Api.xml
+C:\Users\GabrielMiranda\source\repos\SocialMediaApi\SocialMedia.Api\obj\Debug\netcoreapp3.1\SocialMedia.Api.xml

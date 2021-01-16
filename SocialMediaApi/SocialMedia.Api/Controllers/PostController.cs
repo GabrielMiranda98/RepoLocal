@@ -15,6 +15,7 @@ using System.Threading.Tasks;
 
 namespace SocialMedia.Api.Controllers
 {
+    [Produces("application/json")]
     [Route("api/[controller]")]
     [ApiController]
 
@@ -35,8 +36,13 @@ namespace SocialMedia.Api.Controllers
         }
         #endregion
 
+        /// <summary>
+        /// Retrieve all posts
+        /// </summary>
+        /// <param name="filter">Filters to apply</param>
+        /// <returns></returns>
         [HttpGet(Name = nameof(GetPosts))]
-        [ProducesResponseType((int)HttpStatusCode.OK)]
+        [ProducesResponseType((int)HttpStatusCode.OK,Type=typeof(ApiResponse<IEnumerable<PostDto>>))]
         [ProducesResponseType((int)HttpStatusCode.BadRequest)]
 
         public IActionResult GetPosts([FromQuery]PostQueryFilter filter)

@@ -94,4 +94,3 @@ C:\Users\GabrielMiranda\source\repos\SocialMediaApi\SocialMedia.UnitTests\obj\De
 C:\Users\GabrielMiranda\source\repos\SocialMediaApi\SocialMedia.UnitTests\obj\Debug\netcoreapp3.1\SocialMedia.UnitTests.dll
 C:\Users\GabrielMiranda\source\repos\SocialMediaApi\SocialMedia.UnitTests\obj\Debug\netcoreapp3.1\SocialMedia.UnitTests.pdb
 C:\Users\GabrielMiranda\source\repos\SocialMediaApi\SocialMedia.UnitTests\obj\Debug\netcoreapp3.1\SocialMedia.UnitTests.genruntimeconfig.cache
-C:\Users\GabrielMiranda\source\repos\SocialMediaApi\SocialMedia.UnitTests\obj\Debug\netcoreapp3.1\SocialMedia.UnitTests.csprojAssemblyReference.cache

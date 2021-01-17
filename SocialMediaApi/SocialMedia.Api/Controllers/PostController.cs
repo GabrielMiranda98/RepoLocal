@@ -26,11 +26,11 @@ namespace SocialMedia.Api.Controllers
         #region Atributes
         private readonly IPostService _postService;
         private readonly IMapper _mapper;
-        private readonly IUriservice _uriService;
+        private readonly IUriService _uriService;
         #endregion
 
         #region Ctor
-        public PostController(IPostService postService, IMapper mapper,IUriservice uriservice)
+        public PostController(IPostService postService, IMapper mapper,IUriService uriservice)
         {
             _postService = postService;
             _mapper = mapper;

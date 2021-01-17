@@ -6,11 +6,11 @@ using System.Text;
 
 namespace SocialMedia.Infrastructure.Services
 {
-    public class Uriservice : IUriservice
+    public class UriService : IUriService
     {
         private readonly string _baseUri;
 
-        public Uriservice(string baseUri)
+        public UriService(string baseUri)
         {
             _baseUri = baseUri;
         }

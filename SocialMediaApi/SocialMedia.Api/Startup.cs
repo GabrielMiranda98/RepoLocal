@@ -52,7 +52,8 @@ namespace SocialMedia.Api
             services.AddDbContext<SocialMediaContext>(options => options.UseSqlServer(Configuration.GetConnectionString("SocialMedia")));
 
             //Dependency Injection
-            services.AddTransient<IPostService, PostService>();           
+            services.AddTransient<IPostService, PostService>();
+            services.AddTransient<ISecurityService, SecurityService>();
             services.AddScoped(typeof(IRepository<>),typeof (BaseRepository<>));
             services.AddTransient<IUnitOfWork,UnitOfWork>();
             services.AddSingleton<IUriservice>(provider=>   {
@@ -106,8 +107,8 @@ namespace SocialMedia.Api
 
             app.UseSwagger();
             app.UseSwaggerUI(options=>{
-                options.SwaggerEndpoint("/swagger/v1/swagger.json", "Social Media API");
-                options.RoutePrefix = string.Empty;
+                options.SwaggerEndpoint("../swagger/v1/swagger.json", "Social Media API");
+                //options.RoutePrefix = string.Empty;
             }
             );
             app.UseRouting();

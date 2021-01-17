@@ -3,6 +3,8 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata;
 using SocialMedia.Core.Entities;
 using SocialMedia.Infrastructure.Data.Configurations;
+using Microsoft.EntityFrameworkCore;
+using System.Reflection;
 
 namespace SocialMedia.Infrastructure.Data
 {
@@ -23,6 +25,8 @@ namespace SocialMedia.Infrastructure.Data
         public virtual DbSet<Comment> Comments { get; set; }
         public virtual DbSet<Post> Posts { get; set; }
         public virtual DbSet<User> Users { get; set; }
+        public virtual DbSet<Security> Securities { get; set; }
+
         #endregion
 
         #region Methods
@@ -34,6 +38,7 @@ namespace SocialMedia.Infrastructure.Data
 
             modelBuilder.ApplyConfiguration(new UserConfiguration());
 
+            modelBuilder.ApplyConfigurationsFromAssembly(Assembly.GetExecutingAssembly());
 
         }
         #endregion

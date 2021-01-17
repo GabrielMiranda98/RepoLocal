@@ -16,5 +16,7 @@ namespace SocialMedia.Core.Interfaces
 
         Task SaveChangesAsync();
 
+        ISecurityRepository SecurityRepository { get; }
+
     }
 }

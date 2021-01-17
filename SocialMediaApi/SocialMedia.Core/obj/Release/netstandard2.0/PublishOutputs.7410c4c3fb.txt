@@ -1,0 +1,10 @@
+C:\Users\GabrielMiranda\source\repos\SocialMediaApi\SocialMedia.Core\bin\Release\netstandard2.0\publish\SocialMedia.Core.dll
+C:\Users\GabrielMiranda\source\repos\SocialMediaApi\SocialMedia.Core\bin\Release\netstandard2.0\publish\SocialMedia.Core.deps.json
+C:\Users\GabrielMiranda\source\repos\SocialMediaApi\SocialMedia.Core\bin\Release\netstandard2.0\publish\SocialMedia.Core.pdb
+C:\Users\GabrielMiranda\source\repos\SocialMediaApi\SocialMedia.Core\bin\Release\netstandard2.0\publish\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\GabrielMiranda\source\repos\SocialMediaApi\SocialMedia.Core\bin\Release\netstandard2.0\publish\Microsoft.Extensions.Options.dll
+C:\Users\GabrielMiranda\source\repos\SocialMediaApi\SocialMedia.Core\bin\Release\netstandard2.0\publish\Microsoft.Extensions.Primitives.dll
+C:\Users\GabrielMiranda\source\repos\SocialMediaApi\SocialMedia.Core\bin\Release\netstandard2.0\publish\System.Buffers.dll
+C:\Users\GabrielMiranda\source\repos\SocialMediaApi\SocialMedia.Core\bin\Release\netstandard2.0\publish\System.Memory.dll
+C:\Users\GabrielMiranda\source\repos\SocialMediaApi\SocialMedia.Core\bin\Release\netstandard2.0\publish\System.Numerics.Vectors.dll
+C:\Users\GabrielMiranda\source\repos\SocialMediaApi\SocialMedia.Core\bin\Release\netstandard2.0\publish\System.Runtime.CompilerServices.Unsafe.dll

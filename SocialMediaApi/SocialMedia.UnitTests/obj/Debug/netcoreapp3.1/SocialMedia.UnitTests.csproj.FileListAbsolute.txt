@@ -87,7 +87,6 @@ C:\Users\GabrielMiranda\source\repos\SocialMediaApi\SocialMedia.UnitTests\bin\De
 C:\Users\GabrielMiranda\source\repos\SocialMediaApi\SocialMedia.UnitTests\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
 C:\Users\GabrielMiranda\source\repos\SocialMediaApi\SocialMedia.UnitTests\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
 C:\Users\GabrielMiranda\source\repos\SocialMediaApi\SocialMedia.UnitTests\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
-C:\Users\GabrielMiranda\source\repos\SocialMediaApi\SocialMedia.UnitTests\obj\Debug\netcoreapp3.1\SocialMedia.UnitTests.csprojAssemblyReference.cache
 C:\Users\GabrielMiranda\source\repos\SocialMediaApi\SocialMedia.UnitTests\obj\Debug\netcoreapp3.1\SocialMedia.UnitTests.AssemblyInfoInputs.cache
 C:\Users\GabrielMiranda\source\repos\SocialMediaApi\SocialMedia.UnitTests\obj\Debug\netcoreapp3.1\SocialMedia.UnitTests.AssemblyInfo.cs
 C:\Users\GabrielMiranda\source\repos\SocialMediaApi\SocialMedia.UnitTests\obj\Debug\netcoreapp3.1\SocialMedia.UnitTests.csproj.CoreCompileInputs.cache

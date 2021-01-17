@@ -32,12 +32,7 @@ namespace SocialMedia.Infrastructure.Data
         #region Methods
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            modelBuilder.ApplyConfiguration(new PostConfiguration());
-
-            modelBuilder.ApplyConfiguration(new CommentConfiguration());
-
-            modelBuilder.ApplyConfiguration(new UserConfiguration());
-
+            
             modelBuilder.ApplyConfigurationsFromAssembly(Assembly.GetExecutingAssembly());
 
         }
